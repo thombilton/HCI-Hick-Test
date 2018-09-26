@@ -1,0 +1,1740 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping Site</title>
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap-dropdownhover.css">
+
+    <style>
+        body {
+            background-color: #eee;
+        }
+
+        .dropdown-inline {
+            display: inline-block;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+<div class="bs-demo-dropdowns text-center" style="margin-top:150px;">
+    <div class="container">
+        <h1>Lets Shop!</h1>
+        <div class="dropdown dropdown-inline">
+            <a href="#" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Clothing
+                & Accesories
+                <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li class="dropdown">
+                    <a href="#">Clothing <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown">
+                            <a href="#">Womens <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Shirts <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">T-Shirts <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">T-rex T-Shirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Spongebob T-Shirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Plain Red T-Shirt</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Dressy Shirts <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Red Collared Shirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Pink Ruffled Shirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Black Dressy Vest</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Sweaters <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">White Sweater</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Red Sweater</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Striped Sweater</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Pants <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Shorts <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Striped Shorts</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Plain Black Shorts</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Denim Shorts</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Jeans <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Blue Skinny Jeans</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Ripped Jeans</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Light Blue Boyfriend Jeans</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Dress Pants <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Grey Womens Slacks</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Black Womens Slacks</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Navy Womens Slacks</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Dresses & Skirts <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Dresses <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Red Strapless Dress</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Black Cocktail Dress</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Green Princess Dress</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Skirts <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Ballerina Skirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Plaid Skirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Blue Maxi Skirt</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Mens <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Shirts <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                        <li class="dropdown">
+                                            <a href="#">T-Shirts <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Pink Floyd Shirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Surfer Dude Shirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Plain White T</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Dressy Shirts <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">White Collared Shirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Navy Collared Shirt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Striped Collared Shirt</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Sweaters <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Navy Mens Sweater</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Maroon Mens Sweater</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Green Mens Sweater</a></li>
+                                            </ul>
+                                        </li>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Pants <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Shorts <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Khaki Shorts</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Denim Mens Shorts</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Plaid Mens Shorts</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Jeans <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Mens Blue Jeans</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Mens Ripped Denim</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Mens Black Jeans</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Slacks <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Mens Black Slacks</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Mens Grey Slacks</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Mens Navy Slacks</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Accessories <span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdownhover-right">
+                        <li class="dropdown">
+                            <a href="#">Jewelry <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Necklaces & Earrings <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Necklaces <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Gold Necklace</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Diamond Necklace</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Platinum Necklace</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Earrings <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Diamond Earrings</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Silver Earrings</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Gold Earrings</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Bracelets & Watches <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Bracelets <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Gold Bracelet</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Silver Bracelet</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Watches <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Gold Apple Watch</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Normal Black Watch</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Ties & Belts <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Ties <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Bowties <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Black Bowtie</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Polka Dot Bowtie</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Striped Bowtie</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Neckties <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Black Neck Tie</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Polka Dot Neck Tie</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Striped Neck Tie</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Belts <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Leather <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Black Leather Belt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Brown Leather Belt</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Material <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Red Fabric Belt</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Green Plastic Belt</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown dropdown-inline">
+            <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Entertainment
+                <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li class="dropdown">
+                    <a href="#">Games <span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdownhover-right">
+                        <li class="dropdown">
+                            <a href="#">Console <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <
+                                <li class="dropdown">
+                                    <a href="#">Games <span class="caret"></span></a>
+                                    <ul class="dropdown-menu dropdownhover-right">
+                                        <li class="dropdown">
+                                            <a href="#">Console <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Raisins</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Dates</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Dried Apricots</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Board & Card <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown">
+                                                    <a href="#">Board <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">Family <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Scrabble</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Twister</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Code Names</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Mature <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Monopoly</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Cards Against Humanity</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Poker</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="#">Card <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">Playing Cards <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Bicycle Playing Cards</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Collectible Playing Cards</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Other Cards <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Uno</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Phase 10</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Go Fish</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Electronics <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Consoles <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown">
+                                                    <a href="#">Small <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">Nintendo <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Nintendo DS</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Nintendo DSi</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Nintendo Switch</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Playstation<span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Playstation Portable</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">PS Vida</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="#">Large <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">Nintendo <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Nintendo Wii</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Nintedo Gamecube</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Playstation <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">PS2</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">PS3</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">PS4</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Xbox <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Xbox 360</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Xbox One</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Appliances <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown">
+                                                    <a href="#">Kitchen <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">Large <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Wood Fire Oven</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Stainless Steel Microwave</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">White Refridgerator</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Small <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Red Stick Blender</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Easy Rice Cooker</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">EasyMix Mixer</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="#">Household <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">Washers & Dryers <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Top Load Washer</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Top Load Dryer</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Front Load Washer</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Front Load Dryer</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Vacuums & Cleaning <span
+                                                                        class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">EasyVac Vacuum</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Electric Mop</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Carpet Cleaning Machine</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Media <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown">
+                                                    <a href="#">Music <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">CD Players <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Sony CD Player</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Homebrand CD Player</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">iPods & MP3 Players <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Apple iPod Shuffle</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Sony Walkman MP3 Player</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Apple iPod Touch</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="#">Video <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">TVs <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Sony FlatScreen TV</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Homebrand Old Fashioned TV</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Casting Devices <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Chromecast</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Apple TV Airport</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Outdoor <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Relaxation <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown">
+                                                    <a href="#">Pools <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">In-Ground <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Brick Walled In-Ground Pool</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Plastic In-Ground Pool</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Above Ground <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Blow up Mini Pool</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Large Plastic Collapsable Pool</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="#">Trampolines <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">Springed <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Circle Spring Trampoline</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Rectangle Spring Trampoline</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Spring-Free <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Circle SpringFree Trampoline</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Sports & Fun <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown">
+                                                    <a href="#">Sports Equipment <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">Balls & Sticks <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Basketball</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Hockey Stick</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Soccer Ball</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Nets & Gear <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Hockey Net</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Knee Pads</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Soccer Net</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="#">Outdoor Toys <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a href="#">Bubbles <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Blue bubbles</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Pink bubbles</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#">Drones <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Small Hover Drone</a></li>
+                                                                <li class="divider"></li>
+                                                                <li><a href="#">Large Ninja Drone</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Board & Card <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Board <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Family <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Scrabble</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Twister</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Code Names</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Mature <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Monopoly</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Cards Against Humanity</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Poker</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Card <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Playing Cards <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Bicycle Playing Cards</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Collectible Playing Cards</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Other Cards <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Uno</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Phase 10</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Go Fish</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Electronics <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown">
+                            <a href="#">Consoles <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Small <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Nintendo <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Nintendo DS</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Nintendo DSi</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Nintendo Switch</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Playstation<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Playstation Portable</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">PS Vida</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Large <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Nintendo <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Nintendo Wii</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Nintedo Gamecube</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Playstation <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">PS2</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">PS3</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">PS4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Xbox <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Xbox 360</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Xbox One</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Appliances <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Kitchen <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Large <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Wood Fire Oven</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Stainless Steel Microwave</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">White Refridgerator</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Small <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Red Stick Blender</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Easy Rice Cooker</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">EasyMix Mixer</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Household <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Washers & Dryers <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Top Load Washer</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Top Load Dryer</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Front Load Washer</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Front Load Dryer</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Vacuums & Cleaning <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">EasyVac Vacuum</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Electric Mop</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Carpet Cleaning Machine</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Media <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Music <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">CD Players <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Sony CD Player</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Homebrand CD Player</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">iPods & MP3 Players <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Apple iPod Shuffle</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Sony Walkman MP3 Player</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Apple iPod Touch</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Video <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">TVs <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Sony FlatScreen TV</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Homebrand Old Fashioned TV</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Casting Devices <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Chromecast</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Apple TV Airport</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Outdoor <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown">
+                            <a href="#">Relaxation <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Pools <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">In-Ground <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Brick Walled In-Ground Pool</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Plastic In-Ground Pool</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Above Ground <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Blow up Mini Pool</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Large Plastic Collapsable Pool</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Trampolines <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Springed <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Circle Spring Trampoline</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Rectangle Spring Trampoline</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Spring-Free <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Circle SpringFree Trampoline</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Sports & Fun <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Sports Equipment <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Balls & Sticks <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Basketball</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Hockey Stick</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Soccer Ball</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Nets & Gear <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Hockey Net</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Knee Pads</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Soccer Net</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Outdoor Toys <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Bubbles <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Blue bubbles</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Pink bubbles</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Drones <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Small Hover Drone</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Large Ninja Drone</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown dropdown-inline">
+            <a href="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Food &
+                Drink <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li class="dropdown">
+                    <a href="#">Food <span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdownhover-right">
+                        <li class="dropdown">
+                            <a href="#">Produce <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Fruits <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Dried <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Raisins</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Dates</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Dried Apricots</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Canned <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Peaches</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Pears</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Cherries</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Fresh <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Apples</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Oranges</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Bananas</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Vegetables <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Frozen <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Peas</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Broccoli</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Corn</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Fresh <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Carrots</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Cucumber</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Spinach</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Meat <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Fresh <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Chicken <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Fresh Chicken Tenderloins</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Fresh Chicken Breasts</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Fresh Chicken Thighs</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Beef <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Fresh Beef Sirloin</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Fresh Beef Mince</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Fresh Beef Tongue</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Frozen <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Chicken <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Frozen Chicken Nuggets</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Frozen Chicken Strips</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Beef <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Frozen Taco Meat</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Frozne Steak</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Drink <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown">
+                            <a href="#">Cold <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Water <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Sparkling <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Premium Sparkling Water</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Homebrand Sparkling Water</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Still<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Still Spring Water</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Still Sink Water</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Juice <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Fruit <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Orange Juice</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Apple Juice</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Vegetable <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Tomato Juice</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Carrot Juice</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Mixed <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">V8 Juice</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Carrot & Apple Juice</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Warm <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Coffee & Tea <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Coffee <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Decaf Coffee</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Starbucks Coffee</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Tea <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Black Tea</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">White Tea</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Herbal Tea</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Hot Chocolates & Milo <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Hot Chocolate <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Dark Hot Chocolate</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Milk Hot Chocolate</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Milo <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Regular Milo</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Reduced Sugar Milo</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Alcohol <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Beer <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Premium <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Premium Dark Ale</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Premium Light Ale</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Standard <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Standard Dark Ale</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Standard Light Ale</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Wine <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Red <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Ruby Red Wine</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Blood Red Wine</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">White <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Porcelain White Wine</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Sparkling White Wine</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown dropdown-inline">
+            <a href="#" class="btn btn-info dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Health &
+                Beauty <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li class="dropdown">
+                    <a href="#">Cosmetics <span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdownhover-right">
+                        <li class="dropdown">
+                            <a href="#">Makeup <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Face <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Foundation <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Light Foundation</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Medium Foundation</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Dark Foundation</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Blush & Bronzer <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Peach Blush</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Dark Bronzer</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Concealer <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Light Concealer</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Medium Concealer</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Dark Concealer</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Eyes & Lips <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Eyes <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Black Eyeliner</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Black Mascara</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Lips <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Red Lipstick</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Pink Lipstick</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Nail & Body <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Nails <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Nail Polish <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Blue Nail Polish</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Black Nail Polish</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Dark Nail Polish</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Nail Care <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Nail File</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Nail Clippers</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Body <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Lotions <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Vanilla Lotion</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Mandarin Orange Lotion</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Scrubs <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Charcoal Scrub</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Sugar Scrub</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Medical<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown">
+                            <a href="#">First Aid <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Plasters & Wraps <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Plasters <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Disney Plasters</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Large Plasters</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Plain Plasters</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Wraps<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">One-Use Wrap</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Re-usable Wrap</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Ointments & Cremes <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Ointments <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Soothing Ointment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Disinfecting Ointment</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Cremes <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Anti-inflammatory Creme</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Cooling Creme</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Medications <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Natural <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Vitamins <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Vitamin C Tablets</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Multivitamin Tablets</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Supplements <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Protein Powder</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Spirulina Powder</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Pharmaceutical <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Prescription <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Morphine</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Diclofenac</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Over the Counter <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Panadol</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Ibuprofen</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown dropdown-inline">
+            <a href="#" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Home
+                <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li class="dropdown">
+                    <a href="#">Furniture <span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdownhover-right">
+                        <li class="dropdown">
+                            <a href="#">Kitchen <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Dining <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Tables <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Brown Table</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Black Table</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Chairs <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Brown Chair</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Black Chair</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Dishware <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">White Plate</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">White Bowl</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Black Plate</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Cooking <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Pots & Pans <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Big Pot</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Saucepan</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Skillet</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Whisks & Tools <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Whisk</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Spatula</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Large Spoon</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Living Room <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Seating <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Couches <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Red Couch</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Grey Couch</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Recliners <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Black Recliner</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Pink Recliner</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Tables & Lamps <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Tables <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Small Round Table</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Small Square Table</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Lamps <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Tall White Lamp</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Small Table Lamp</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Garden<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown">
+                            <a href="#">Tools <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Electronic <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Lawnmowers <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Ride-On Mower</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Push Lawnmower</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Power Tools<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Chainsaw</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Water Blaster</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Manual <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Gardening <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Hoe</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Shovel</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Labour <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Wheelbarrow</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Axe</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Plants <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#">Live Plants <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Produce <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Tomatoes</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Lettuce</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Flowers <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Roses</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Daisies</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Seeds <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown">
+                                            <a href="#">Produce <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Tomatoes</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Lettuce</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Flowers <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Roses</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Daisies</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+</div>
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="javascript/bootstrap-dropdownhover.js"></script>
+
+</body>
+
+</html>
