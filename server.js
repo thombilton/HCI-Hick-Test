@@ -8,6 +8,8 @@ app.set('view engine', 'ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+var port = process.env.PORT || 3000;
+
 
 app.get('/', function (req, res) {
     res.render('index')
@@ -21,6 +23,6 @@ app.get('/ready', function (req, res) {
     res.render('ready')
 });
 
-app.listen(3000, function () {
+app.listen(port, function () {
     console.log('Example app listening on port 3000!')
 });
