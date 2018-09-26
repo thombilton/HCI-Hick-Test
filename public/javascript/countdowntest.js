@@ -8,7 +8,7 @@ function startCountdown(timerText) {
         } else {
             // Switch pages or do something
         }
-        
+
 
     }, 1000);
 }
@@ -31,7 +31,7 @@ function endTime(endTimeText) {
 
     var beginTime = localStorage.getItem("beginTime");
     var duration = endTime - beginTime;
-    
+
     var obj = document.getElementById(endTimeText);
     obj.innerText = "Duration: " + duration / 1000;
 }
