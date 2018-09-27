@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+
+        .dropdown{
+            display:inline-block;
+        }
+
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Multi-Level Dropdowns</h2>
+    <p>In this example, we have created a .dropdown-submenu class for multi-level dropdowns (see style section above).</p>
+    <p>Note that we have added jQuery to open the multi-level dropdown on click (see script section below).</p>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="#">HTML</a></li>
+            <li><a tabindex="-1" href="#">CSS</a></li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                    <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                    <li class="dropdown-submenu">
+                        <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level dropdown</a></li>
+                            <li><a href="#">3rd level dropdown</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Produce<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Fruit<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#">Fresh<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">Layer 1</a></li>
+                            <li><a tabindex="-1" href="#">Layer 2</a></li>
+                            <li><a tabindex="-1" href="#">Layer 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#">Dried<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">Layer 1</a></li>
+                            <li><a tabindex="-1" href="#">Layer 2</a></li>
+                            <li><a tabindex="-1" href="#">Layer 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#">Canned<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">Layer 1</a></li>
+                            <li><a tabindex="-1" href="#">Layer 2</a></li>
+                            <li><a tabindex="-1" href="#">Layer 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Vedge<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#">Fresh<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">Layer 1</a></li>
+                            <li><a tabindex="-1" href="#">Layer 2</a></li>
+                            <li><a tabindex="-1" href="#">Layer 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="test" tabindex="-1" href="#">Dried<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">Layer 1</a></li>
+                            <li><a tabindex="-1" href="#">Layer 2</a></li>
+                            <li><a tabindex="-1" href="#">Layer 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Juice<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Fruit<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Vedge<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Mixed<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Soft Drink<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Bottled<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Canned<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Supplementary Drinks<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Sports<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Energy<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Protein<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Water<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Still<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Sparkling<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Flavoured<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Coffee<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Caffinated<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Decaf<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tea<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Black<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Green<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Herbal<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Other Drinks<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Hot Chocolate<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Wine<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Red<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">White<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Beer<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Premium<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Standard<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Champagne<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Pink<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">White<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Snacks<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Chips<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Dip<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Other<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sweets<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Chocolate<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Lollies<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Meat<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Chicken<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Beef<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Pork<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dried Meat<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Chicken<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Beef<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Pork<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Pre-cooked Meat<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Deli<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Ready to Serve<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a tabindex="-1" href="#">Layer 1</a></li>
+                    <li><a tabindex="-1" href="#">Layer 2</a></li>
+                    <li><a tabindex="-1" href="#">Layer 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+</script>
+
+</body>
+</html>
