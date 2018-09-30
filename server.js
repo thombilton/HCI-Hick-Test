@@ -30,14 +30,25 @@ app.get('/five', function (req, res) {
 app.get('/two', function (req, res) {
     res.render('2Level')
 });
+
 app.get('/three', function (req, res) {
     res.render('3Level')
 });
+
 app.get('/four', function (req, res) {
     res.render('4Level')
 });
+
 app.get('/one', function (req, res) {
     res.render('1Level')
+});
+
+app.get('/ins', function (req, res) {
+    res.render('instructions')
+});
+
+app.get('/results', function (req, res) {
+    res.send({results:'returning these results from the server'})
 });
 
 app.listen(port, function () {
