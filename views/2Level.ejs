@@ -7,8 +7,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
 
-        .dropdown{
-            display:inline-block;
+        .dropdown {
+            display: inline-block;
         }
 
         .dropdown-submenu {
@@ -21,46 +21,55 @@
             margin-top: -1px;
         }
     </style>
+
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            $('#exampleModalCenter').modal('show');
+        });
+    </script>
 </head>
 <body>
 
 <div class="container">
-    <h2>Multi-Level Dropdowns</h2>
-    <p>In this example, we have created a .dropdown-submenu class for multi-level dropdowns (see style section above).</p>
-    <p>Note that we have added jQuery to open the multi-level dropdown on click (see script section below).</p>
+    <h2 style="text-align: center">Level 2</h2>
+    <h4 style="text-align: center">
+        Macs Interstate Craft Beer 330ml bottles 12pk
+    </h4>
 
-<!--    <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials<span class="caret"></span></button>
-        <ul class="dropdown-menu">
-            <li><a tabindex="-1" href="#">HTML</a></li>
-            <li><a tabindex="-1" href="#">CSS</a></li>
-            <li class="dropdown-submenu">
-                <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-                    <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-                    <li class="dropdown-submenu">
-                        <a class="test" href="#">Another dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">3rd level dropdown</a></li>
-                            <li><a href="#">3rd level dropdown</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>-->
+    <!--    <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">HTML</a></li>
+                <li><a tabindex="-1" href="#">CSS</a></li>
+                <li class="dropdown-submenu">
+                    <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                        <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">3rd level dropdown</a></li>
+                                <li><a href="#">3rd level dropdown</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>-->
 
     <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Fruit<span class="caret"></span></button>
-    <ul class="dropdown-menu">
-        <li><a tabindex="-1" href="#">Apples 12pk</a></li>
-        <li><a tabindex="-1" href="#">Oranges 12pk</a></li>
-        <li><a tabindex="-1" href="#">Pears 12pk</a></li>
-    </ul>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Fruit<span
+                    class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="#">Apples 12pk</a></li>
+            <li><a tabindex="-1" href="#">Oranges 12pk</a></li>
+            <li><a tabindex="-1" href="#">Pears 12pk</a></li>
+        </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dried Fruit<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dried Fruit<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Rasins 500g</a></li>
             <li><a tabindex="-1" href="#">Apricots 200g</a></li>
@@ -68,7 +77,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Canned Fruit<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Canned Fruit<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Watties Canned Peaches 250g</a></li>
             <li><a tabindex="-1" href="#">Watties Canned Tomatoes 250g</a></li>
@@ -76,7 +86,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Vedge<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Vedge<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Carrots 1kg</a></li>
             <li><a tabindex="-1" href="#">Telegraph Cucumber</a></li>
@@ -84,7 +95,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Canned Vedge<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Canned Vedge<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Asparagus 250g</a></li>
             <li><a tabindex="-1" href="#">Watties Canned Corn 200g</a></li>
@@ -92,7 +104,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fruit Juice<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fruit Juice<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Keri Apple Juice </a></li>
             <li><a tabindex="-1" href="#">Maccoy Fresh Orange Juice</a></li>
@@ -100,7 +113,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Vedge Juice<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Vedge Juice<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Keri Carrot Juice</a></li>
             <li><a tabindex="-1" href="#">Maccoy Beetroot Juice</a></li>
@@ -108,7 +122,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Mixed Juice<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Mixed Juice<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#"> Keri Tropical Juiice</a></li>
             <li><a tabindex="-1" href="#">Keri Lemon & Lime Juice</a></li>
@@ -116,7 +131,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Bottled Soft Drinks<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Bottled Soft Drinks<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Diet Coke 1.5l</a></li>
             <li><a tabindex="-1" href="#">Lemonade 1.5l</a></li>
@@ -124,7 +140,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Canned Soft Drinks<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Canned Soft Drinks<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">L&P 12pk</a></li>
             <li><a tabindex="-1" href="#">Coke 12pk</a></li>
@@ -132,7 +149,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sports Drinks<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sports Drinks<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Powerraid 500ml</a></li>
             <li><a tabindex="-1" href="#">Gatoraid 500ml</a></li>
@@ -140,7 +158,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Energy Drinks<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Energy Drinks<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">V Pure 500ml</a></li>
             <li><a tabindex="-1" href="#">Mother 6pk</a></li>
@@ -148,7 +167,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Protein Drinks<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Protein Drinks<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Up & Go Chocolate 3pk</a></li>
             <li><a tabindex="-1" href="#">Fit Pro Go 2pk</a></li>
@@ -156,7 +176,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sparking Water<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sparking Water<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Deep Park Sparkling 500ml</a></li>
             <li><a tabindex="-1" href="#">Voss Sparkling 100ml</a></li>
@@ -164,7 +185,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Still Water<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Still Water<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">h2Go 200ml</a></li>
             <li><a tabindex="-1" href="#">Pump 250ml</a></li>
@@ -172,7 +194,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Flavoured Water<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Flavoured Water<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Pump Orange 250ml</a></li>
             <li><a tabindex="-1" href="#">H2Go Apple 250ml</a></li>
@@ -180,7 +203,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Cafinated Coffee<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Cafinated Coffee<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Nes Cafe Classic Powder 200g</a></li>
             <li><a tabindex="-1" href="#">Hummingbird Coffee Beans Crave Organic 200g</a></li>
@@ -188,7 +212,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Decaf Coffee<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Decaf Coffee<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Nes Cafe Gold Instant Coffee Decaf Jar 100g</a></li>
             <li><a tabindex="-1" href="#">Hummingbird Coffee Beans Decaf 200g</a></li>
@@ -196,7 +221,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Black Tea<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Black Tea<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Scarborough Fair Tea Bags Black 100pk</a></li>
             <li><a tabindex="-1" href="#">Essentials Tea Bags Black 360g</a></li>
@@ -204,7 +230,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Green Tea<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Green Tea<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Red Seal Green Tea Bags Pure 25pk</a></li>
             <li><a tabindex="-1" href="#">Dilmah Ceylon Green Tea Moroccan Mint 20pk</a></li>
@@ -212,7 +239,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Herbal Tea<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Herbal Tea<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Bell Herbal Tea Peppermint 38g 24pk</a></li>
             <li><a tabindex="-1" href="#">Bell White Tea Herbal Tea Strawberry and Mango 43g 24pk</a></li>
@@ -220,7 +248,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Hot Chocolate<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Hot Chocolate<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Gregs Cafe Gold Drinking Chocolate 10pk</a></li>
             <li><a tabindex="-1" href="#">Cadbury Drinking Chocolate 225g</a></li>
@@ -228,7 +257,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Red Wine<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Red Wine<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Rumors Merlot 750ml</a></li>
             <li><a tabindex="-1" href="#">Jacobs Creek Merlot 750ml</a></li>
@@ -236,7 +266,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">White Wine<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">White Wine<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">LAmiri Sauvignon Blanc 750ml</a></li>
             <li><a tabindex="-1" href="#">Stoneleigh Riesling Marlborough 750ml</a></li>
@@ -244,15 +275,17 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Premium Beer<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Premium Beer<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Macs Interstate Craft Beer 330ml bottles 12pk</a></li>
             <li><a tabindex="-1" href="#">Emersons Craft Beer London Porter 500ml</a></li>
-            <li><a tabindex="-1" href="#">Monteiths Pointers Craft Beer Pale Ale 330ml  12pk</a></li>
+            <li><a tabindex="-1" href="#">Monteiths Pointers Craft Beer Pale Ale 330ml 12pk</a></li>
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Standard Beer<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Standard Beer<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Asahi Beer Super Dry 5% 330ml 6pk</a></li>
             <li><a tabindex="-1" href="#">Corona Extra Beer 355ml 18pk</a></li>
@@ -260,7 +293,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">White Champagne<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">White Champagne<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Moet & Chandon Champagne Grand Vintage 750ml</a></li>
             <li><a tabindex="-1" href="#">Veuve Clicquot Champagne 750ml</a></li>
@@ -268,7 +302,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Pink Champagne<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Pink Champagne<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Mumm Champagne Rose 750ml</a></li>
             <li><a tabindex="-1" href="#">Moet & Chandon Champagne Rode 750ml</a></li>
@@ -276,7 +311,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Chips<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Chips<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Bluebird Thin Cut Potato Chips Chicken 140g</a></li>
             <li><a tabindex="-1" href="#">Bluebird Thin Cut Potato Chips Salt and Vinegar 140g</a></li>
@@ -284,7 +320,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dip<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dip<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Lisas Dip Gloriously Garlic 200g</a></li>
             <li><a tabindex="-1" href="#">Tararua Dip Gherkin Relish 250g</a></li>
@@ -292,7 +329,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Other Snacks<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Other Snacks<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Nz Kettle Korn Multi Pack 204g 12pk</a></li>
             <li><a tabindex="-1" href="#">Arnotts Tiny Teddy Plain Biscuits Variety Pack 375g 15pk</a></li>
@@ -300,7 +338,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Chocolate<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Chocolate<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Cadbury Chocolate Block Packed With Moro 180g</a></li>
             <li><a tabindex="-1" href="#">Lindt Chocolate Block Excellence Dark Chilli 100g</a></li>
@@ -308,15 +347,18 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Lollies<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Lollies<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">The Natural Confectionery Co Jelly Sweets Party Mix 240g</a></li>
-            <li><a tabindex="-1" href="#">The Natural Confectionery Co Jelly Sweets Soft Jellies Fruit Salad 240g</a></li>
+            <li><a tabindex="-1" href="#">The Natural Confectionery Co Jelly Sweets Soft Jellies Fruit Salad 240g</a>
+            </li>
             <li><a tabindex="-1" href="#">Starburst Jelly Sweets Babies 180g</a></li>
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Chicken<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Chicken<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Butchery Chicken Breast Boneless Skin On</a></li>
             <li><a tabindex="-1" href="#">Butchery Tegel Thin Cut Chicken Breast Plain</a></li>
@@ -324,7 +366,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Beef<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Beef<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Butchery Beef Stewing Topside</a></li>
             <li><a tabindex="-1" href="#">Beef Frying Sirloin Steak Nz 1pc</a></li>
@@ -332,7 +375,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Pork<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Fresh Pork<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Butchery Pork Roast Shoulder Bone In</a></li>
             <li><a tabindex="-1" href="#">Butchery Pork Roast Leg Bone In</a></li>
@@ -340,7 +384,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dried Beef<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dried Beef<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Jack Links Beef Jerky Original</a></li>
             <li><a tabindex="-1" href="#">Jack Links Beef Jerky Teriyaki</a></li>
@@ -348,7 +393,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dried Pork<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dried Pork<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Golden Island Korean BBQ Pork</a></li>
             <li><a tabindex="-1" href="#">Pacific Gold Reserve Sweet Korean BBQ Pork Jerky</a></li>
@@ -356,7 +402,8 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dried Lamb<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dried Lamb<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Little Lamb Co. All Natural, Lamb Jerky</a></li>
             <li><a tabindex="-1" href="#">Original Lamb Jerky</a></li>
@@ -364,22 +411,49 @@
         </ul>
     </div>
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Deli Meats<span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Deli Meats<span
+                    class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a tabindex="-1" href="#">Instore Deli Ham Shaved Honey</a></li>
             <li><a tabindex="-1" href="#">Instore Deli Cocktail Sausages 540g </a></li>
             <li><a tabindex="-1" href="#">Instore Deli Primo Pancetta Sliced 100g</a></li>
         </ul>
     </div>
-<script>
-    $(document).ready(function(){
-        $('.dropdown-submenu a.test').on("click", function(e){
-            $(this).next('ul').toggle();
-            e.stopPropagation();
-            e.preventDefault();
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-submenu a.test').on("click", function (e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
         });
-    });
-</script>
+    </script>
+</div>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLongTitle">Level 2</h2>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Please locate and click on the product:
+                </p>
+                <h4>
+                    Macs Interstate Craft Beer 330ml bottles 12pk
+                </h4>
+                <p>
+                    The timer will begin as soon as you click OKAY
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OKAY</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

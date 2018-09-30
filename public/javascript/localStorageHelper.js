@@ -14,6 +14,7 @@ const personData = {
 
 function processForm() {
 
+    console.log("sumbmitted");
     saveFormData();
     window.location = "ready";
     console.log("Changed webpage?");

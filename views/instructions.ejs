@@ -9,10 +9,12 @@
 </head>
 <style>
 
-    .text{
-        align-content: center;
-        text-align: center;
-        justify-content: center;
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 15px;
+        transform: translate(-50%, -70%);
     }
 </style>
 
@@ -21,11 +23,13 @@
 <div class="container">
 
     <div class="text">
-    <h1>Welcome</h1>
-    <p>This experiment will test the time it takes for you to decide on where a food item in an
-    online store is located.</p>
-    <p>You will be presented with a menu or selection of options.</p>
-    <p>You will be timed automatically, with the timer beginning for each level as soon as you press the green button</p>
+        <h1>Welcome</h1>
+        <p>This experiment will test the time it takes for you to decide on where a food item in an
+            online store is located.</p>
+        <p>You will be presented with a menu or selection of options.</p>
+        <p>You will be timed automatically, with the timer beginning for each level as soon as you press the green
+            button</p>
+        <button type="button" class="btn btn-success" onclick="location.href='/participant_info'">Continue</button>
     </div>
 </div>
 

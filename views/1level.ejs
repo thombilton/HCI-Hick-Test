@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
     <style>
 
         .dropdown {
@@ -23,14 +25,20 @@
             margin-top: -1px;
         }
     </style>
+
+    <script type="text/javascript">
+        $(window).on('load',function(){
+            $('#exampleModalCenter').modal('show');
+        });
+    </script>
 </head>
 <body>
 
 <div class="container">
-    <h2>Multi-Level Dropdowns</h2>
-    <p>In this example, we have created a .dropdown-submenu class for multi-level dropdowns (see style section
-        above).</p>
-    <p>Note that we have added jQuery to open the multi-level dropdown on click (see script section below).</p>
+    <h2 style="text-align: center">Level 1</h2>
+    <h4 style="text-align: center">
+        Up & Go Chocolate 3pk
+    </h4>
 
     <div class="dropdown">
         <h2>Fresh Fruit</h2>
@@ -275,7 +283,6 @@
         <li><a>Instore Deli Primo Pancetta Sliced 100g</a></li>
     </div>
 
-
     <script>
         $(document).ready(function () {
             $('.dropdown-submenu a.test').on("click", function (e) {
@@ -285,6 +292,32 @@
             });
         });
     </script>
+</div>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLongTitle">Level 1</h2>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Please locate and click on the product:
+                </p>
+                <h4>
+                    Up & Go Chocolate 3pk
+                </h4>
+                <p>
+                    The timer will begin as soon as you click OKAY
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OKAY</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
