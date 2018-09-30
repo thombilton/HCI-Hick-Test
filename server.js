@@ -36,6 +36,9 @@ app.get('/three', function (req, res) {
 app.get('/four', function (req, res) {
     res.render('4Level')
 });
+app.get('/one', function (req, res) {
+    res.render('1Level')
+});
 
 app.listen(port, function () {
     console.log('Example app listening on port 3000!')

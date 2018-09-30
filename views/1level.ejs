@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+
+        .dropdown {
+            display: inline-block;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Multi-Level Dropdowns</h2>
+    <p>In this example, we have created a .dropdown-submenu class for multi-level dropdowns (see style section
+        above).</p>
+    <p>Note that we have added jQuery to open the multi-level dropdown on click (see script section below).</p>
+
+    <div class="dropdown">
+        <h2>Fresh Fruit</h2>
+        <li><a>Apples 12pk</a></li>
+        <li><a>Oranges 12pk</a></li>
+        <li><a>Pears 12pk</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Dried Fruit</h2>
+        <li><a>Rasins 500g</a></li>
+        <li><a>Apricots 200g</a></li>
+        <li><a>Dates 600g</a></li>
+    </div>
+
+    <div class="dropdown">
+        <h2>Canned Fruit</h2>
+        <li><a>Watties Canned Peaches 250g</a></li>
+        <li><a>Watties Canned Tomatoes 250g</a></li>
+        <li><a>Watties Canned Pineapple rings 200g</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Fresh Vedge</h2>
+        <li><a>Carrots 1kg</a></li>
+        <li><a>Telegraph Cucumber</a></li>
+        <li><a>Iceburg Lettuce</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Canned Vedge</h2>
+        <li><a>Asparagus 250g</a></li>
+        <li><a>Watties Canned Corn 200g</a></li>
+        <li><a>Watties Canned Carrots 250g</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Fruit Juice</h2>
+        <li><a>Keri Apple Juice </a></li>
+        <li><a>Maccoy Fresh Orange Juice</a></li>
+        <li><a>Franks Pear Juice</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Vedge Juice</h2>
+        <li><a>Keri Carrot Juice</a></li>
+        <li><a>Maccoy Beetroot Juice</a></li>
+        <li><a>Franks Cucumber Juice</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Mixed Juice</h2>
+        <li><a> Keri Tropical Juiice</a></li>
+        <li><a>Keri Lemon & Lime Juice</a></li>
+        <li><a>Maccoy Summer Fruits Juice</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Bottled Soft Drink</h2>
+        <li><a>Diet Coke 1.5l</a></li>
+        <li><a>Lemonade 1.5l</a></li>
+        <li><a>Fanta 2l</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Canned Soft Drink</h2>
+        <li><a>L&P 12pk</a></li>
+        <li><a>Coke 12pk</a></li>
+        <li><a>Mountain Due 6pk</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Sports Drinks</h2>
+        <li><a>Powerraid 500ml</a></li>
+        <li><a>Gatoraid 500ml</a></li>
+        <li><a>Lucisade 250ml</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Energy Drinks</h2>
+        <li><a>V Pure 500ml</a></li>
+        <li><a>Mother 6pk</a></li>
+        <li><a>Lift + 2pk</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Protein Drinks</h2>
+        <li><a>Up & Go Chocolate 3pk</a></li>
+        <li><a>Fit Pro Go 2pk</a></li>
+        <li><a>Whey Isolate Straberry 2pk</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Sparkling Water</h2>
+        <li><a>Deep Park Sparkling 500ml</a></li>
+        <li><a>Voss Sparkling 100ml</a></li>
+        <li><a>Schweppes Sparking 250ml</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Still Water</h2>
+        <li><a>h2Go 200ml</a></li>
+        <li><a>Pump 250ml</a></li>
+        <li><a>Voss Still 100ml</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Flavoured Water</h2>
+        <li><a>Pump Orange 250ml</a></li>
+        <li><a>H2Go Apple 250ml</a></li>
+        <li><a>H2Go Berry 250ml</a></li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <h2>Caffenated Coffee</h2>
+        <li><a>Nes Cafe Classic Powder 200g</a></li>
+        <li><a>Hummingbird Coffee Beans Crave Organic 200g</a></li>
+        <li><a>Jeds Coffee Co Beans 4 200g</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Decaf Coffee</h2>
+        <li><a>Nes Cafe Gold Instant Coffee Decaf Jar 100g</a></li>
+        <li><a>Hummingbird Coffee Beans Decaf 200g</a></li>
+        <li><a>Vittoria Espresso Grind Decaf 200g</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Black Tea</h2>
+        <li><a>Scarborough Fair Tea Bags Black 100pk</a></li>
+        <li><a>Essentials Tea Bags Black 360g</a></li>
+        <li><a>Read Seal Black Tea Bags 25pk</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Green Tea</h2>
+        <li><a>Red Seal Green Tea Bags Pure 25pk</a></li>
+        <li><a>Dilmah Ceylon Green Tea Moroccan Mint 20pk</a></li>
+        <li><a>Chanui Green Tea Lemon 85g Boxed 50 Bags</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Herbal Tea</h2>
+        <li><a>Bell Herbal Tea Peppermint 38g 24pk</a></li>
+        <li><a>Bell White Tea Herbal Tea Strawberry and Mango 43g 24pk</a></li>
+        <li><a>Red Seal Red Bush Herbal Tea 80g 50pk</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Other Hot Drinks</h2>
+        <li><a>Gregs Cafe Gold Drinking Chocolate 10pk</a></li>
+        <li><a>Cadbury Drinking Chocolate 225g</a></li>
+        <li><a>Jeds Coffee Co Drinking Chocolate 200g</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Red wine</h2>
+        <li><a>Rumors Merlot 750ml</a></li>
+        <li><a>Jacobs Creek Merlot 750ml</a></li>
+        <li><a>Jacbos Creek Shiraz</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>White Wine</h2>
+        <li><a>LAmiri Sauvignon Blanc 750ml</a></li>
+        <li><a>Stoneleigh Riesling Marlborough 750ml</a></li>
+        <li><a>Brown Brothers Riesling Patricia Noble 375ml</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Premium Beer</h2>
+        <li><a>Macs Interstate Craft Beer 330ml bottles 12pk</a></li>
+        <li><a>Emersons Craft Beer London Porter 500ml</a></li>
+        <li><a>Monteiths Pointers Craft Beer Pale Ale 330ml 12pk</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Standard Beer</h2>
+        <li><a>Asahi Beer Super Dry 5% 330ml 6pk</a></li>
+        <li><a>Corona Extra Beer 355ml 18pk</a></li>
+        <li><a>Speights Beer 330ml 12pk</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>White Champagne</h2>
+        <li><a>Moet & Chandon Champagne Grand Vintage 750ml</a></li>
+        <li><a>Veuve Clicquot Champagne 750ml</a></li>
+        <li><a>Perrier Jouet Champagne Belle Epq Brut 750ml</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Red Champagne</h2>
+        <li><a>Mumm Champagne Rose 750ml</a></li>
+        <li><a>Moet & Chandon Champagne Rode 750ml</a></li>
+        <li><a>2007 Louis Roederer Cristal Rose 750ml</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Chips</h2>
+        <li><a>Bluebird Thin Cut Potato Chips Chicken 140g</a></li>
+        <li><a>Bluebird Thin Cut Potato Chips Salt and Vinegar 140g</a></li>
+        <li><a>Bluebird Thin Cut Potato Chips Ready Salted 140g</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Dip</h2>
+        <li><a>Lisas Dip Gloriously Garlic 200g</a></li>
+        <li><a>Tararua Dip Gherkin Relish 250g</a></li>
+        <li><a>Good Taste Company Dip Tomato, Capsicum, Chilli Salsa 200g</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Other Snacks</h2>
+        <li><a>Nz Kettle Korn Multi Pack 204g 12pk</a></li>
+        <li><a>Arnotts Tiny Teddy Plain Biscuits Variety Pack 375g 15pk</a></li>
+        <li><a>Healtheries Kidscare Multi Pack Rice Wheels Burger 10pk</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Chocolate</h2>
+        <li><a>Cadbury Chocolate Block Packed With Moro 180g</a></li>
+        <li><a>Lindt Chocolate Block Excellence Dark Chilli 100g</a></li>
+        <li><a>Nestle Kit Kat Chocolate Block Original 170g</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Lollies</h2>
+        <li><a>The Natural Confectionery Co Jelly Sweets Party Mix 240g</a></li>
+        <li><a>The Natural Confectionery Co Jelly Sweets Soft Jellies Fruit Salad 240g</a></li>
+        <li><a>Starburst Jelly Sweets Babies 180g</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Fresh Chicken</h2>
+        <li><a>Butchery Chicken Breast Boneless Skin On</a></li>
+        <li><a>Butchery Tegel Thin Cut Chicken Breast Plain</a></li>
+        <li><a>Butchery Macro Free Range Chicken Breast</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Fresh Beef</h2>
+        <li><a>Butchery Beef Stewing Topside</a></li>
+        <li><a>Beef Frying Sirloin Steak Nz 1pc</a></li>
+        <li><a>Butchery Beef Frying Tenderised Bbq Steak</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Fresh Pork</h2>
+        <li><a>Butchery Pork Roast Shoulder Bone In</a></li>
+        <li><a>Butchery Pork Roast Leg Bone In</a></li>
+        <li><a>Butchery Pork Diced Trim Medium Tray</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Dried Beef</h2>
+        <li><a>Jack Links Beef Jerky Original</a></li>
+        <li><a>Jack Links Beef Jerky Teriyaki</a></li>
+        <li><a>Canterbury Biltong Beef Jerky Bbq</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Dried Pork</h2>
+        <li><a>Golden Island Korean BBQ Pork</a></li>
+        <li><a>Pacific Gold Reserve Sweet Korean BBQ Pork Jerky</a></li>
+        <li><a>Chef's Cut Real Jerky - Smoked Chicken Breast Honey Barbecue</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Dried Lamb</h2>
+        <li><a>Little Lamb Co. All Natural, Lamb Jerky</a></li>
+        <li><a>Original Lamb Jerky</a></li>
+        <li><a>Mediterranean Lamb - Meat and Veggie Bars</a></li>
+    </div>
+    <div class="dropdown">
+        <h2>Deli Meats</h2>
+        <li><a>Instore Deli Ham Shaved Honey</a></li>
+        <li><a>Instore Deli Cocktail Sausages 540g </a></li>
+        <li><a>Instore Deli Primo Pancetta Sliced 100g</a></li>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-submenu a.test').on("click", function (e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
+
+</body>
+</html>
