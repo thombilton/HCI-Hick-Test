@@ -39,8 +39,8 @@ app.get('/four', function (req, res) {
     res.render('4Level')
 });
 
-app.get('/pageone', function (req, res) {
-    res.render('1Level')
+app.get('/one', function (req, res) {
+    res.render('1level')
 });
 
 app.get('/ins', function (req, res) {
