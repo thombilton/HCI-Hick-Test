@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type ="text/javascript" src="/javascript/timer.js"></script>
     <style>
 
         .dropdown {
@@ -288,7 +289,7 @@
             <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Premium Beer<span
                         class="caret"></span></button>
             <ul class="dropdown-menu">
-                <li><a tabindex="-1" href="#">Macs Interstate Craft Beer 330ml bottles 12pk</a></li>
+                <li><a tabindex="-1" href="javascript:void(0);" onclick="endTime(2, 'three')">Macs Interstate Craft Beer 330ml bottles 12pk</a></li>
                 <li><a tabindex="-1" href="#">Emersons Craft Beer London Porter 500ml</a></li>
                 <li><a tabindex="-1" href="#">Monteiths Pointers Craft Beer Pale Ale 330ml 12pk</a></li>
             </ul>
@@ -461,7 +462,7 @@
                 </p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">OKAY</button>
+                <button type="button" class="btn btn-primary" onclick="beginTime(2)" data-dismiss="modal">OKAY</button>
             </div>
         </div>
     </div>

@@ -40,11 +40,16 @@ function saveFormData() {
         personData.sleep,
         personData.awake
     );
+    
+    var name = personData.fname + personData.lname;
 
     window.localStorage.setItem(
-        personData.fname + personData.lname,
+        name,
         JSON.stringify(personData)
     );
+
+    // store key for later use
+    window.localStorage.setItem("clientName", name);
 }
 
 /**

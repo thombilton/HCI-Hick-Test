@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type ="text/javascript" src="/javascript/timer.js"></script>
+
     <style>
 
         .dropdown {
@@ -286,7 +288,7 @@
                             <a class="test" tabindex="-1" href="#">Herbal<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a tabindex="-1" href="#">Bell Herbal Tea Peppermint 38g 24pk</a></li>
-                                <li><a tabindex="-1" href="#">Bell White Tea Herbal Tea Strawberry and Mango 43g
+                                <li><a tabindex="-1" href="javascript:void(0);" onclick="endTime(4, 'results')">Bell White Tea Herbal Tea Strawberry and Mango 43g
                                         24pk</a></li>
                                 <li><a tabindex="-1" href="#">Red Seal Red Bush Herbal Tea 80g 50pk</a></li>
                             </ul>
@@ -543,7 +545,7 @@
                 </p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">OKAY</button>
+                <button type="button" class="btn btn-primary" onclick="beginTime(4)" data-dismiss="modal">OKAY</button>
             </div>
         </div>
     </div>

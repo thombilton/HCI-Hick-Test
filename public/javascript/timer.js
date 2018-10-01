@@ -13,22 +13,22 @@ function startCountdown(timerText) {
     }, 1000);
 }
 
-// TODO: Make it more modular
-function beginTime(beginTimeText) {
+// // TODO: Make it more modular
+// function beginTime(beginTimeText) {
+//     var d = new Date();
+//     beginTime = d.getTime();
+
+//     localStorage.setItem("beginTime", beginTime);
+
+//     var obj = document.getElementById(beginTimeText);
+//     obj.innerText = "Started!";
+// }
+
+function beginTime(level) {
     var d = new Date();
     beginTime = d.getTime();
 
-    localStorage.setItem("beginTime", beginTime);
-
-    var obj = document.getElementById(beginTimeText);
-    obj.innerText = "Started!";
-}
-
-function beginTime() {
-    var d = new Date();
-    beginTime = d.getTime();
-
-    localStorage.setItem("beginTime", beginTime);
+    localStorage.setItem("beginTime"+level, beginTime);
 }
 
 function endTime(endTimeText) {
@@ -42,12 +42,18 @@ function endTime(endTimeText) {
     obj.innerText = "Duration: " + duration / 1000;
 }
 
-function endTime() {
+function endTime(level, nextPage) {
     var d = new Date();
     var endTime = d.getTime();
 
-    var beginTime = localStorage.getItem("beginTime");
+    var beginTime = localStorage.getItem("beginTime" + level);
     var duration = (endTime - beginTime) / 1000;
     
-    localStorage.setItme("duration", duration);
+    var key = "duration"+level;
+    localStorage.setItem("duration"+level, duration);
+    var name = localStorage.getItem("clientName");
+    var person = JSON.parse(localStorage.getItem(name));
+    person[key] = duration;
+    localStorage.setItem(name, JSON.stringify(person));
+    window.location = nextPage;
 }

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type ="text/javascript" src="/javascript/timer.js"></script>
 
     <style>
 
@@ -37,7 +38,7 @@
 <div class="container">
     <h2 style="text-align: center">Level 1</h2>
     <h4 style="text-align: center">
-        Up & Go Chocolate 3pk
+       Up & Go Chocolate 3pk
     </h4>
 
     <div class="dropdown">
@@ -115,7 +116,7 @@
     </div>
     <div class="dropdown">
         <h2>Protein Drinks</h2>
-        <li><a>Up & Go Chocolate 3pk</a></li>
+        <li><a href="javascript:void(0);" onclick="endTime(1, 'two')">Up & Go Chocolate 3pk</a></li>
         <li><a>Fit Pro Go 2pk</a></li>
         <li><a>Whey Isolate Straberry 2pk</a></li>
     </div>
@@ -313,7 +314,7 @@
                 </p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">OKAY</button>
+                <button type="button" class="btn btn-primary" onclick="beginTime(1)" data-dismiss="modal">OKAY</button>
             </div>
         </div>
     </div>
