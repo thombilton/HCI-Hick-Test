@@ -39,7 +39,7 @@ app.get('/four', function (req, res) {
     res.render('4Level')
 });
 
-app.get('/one', function (req, res) {
+app.get('/pageone', function (req, res) {
     res.render('1Level')
 });
 
