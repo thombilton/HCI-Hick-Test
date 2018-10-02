@@ -28,6 +28,7 @@ function newPerson() {
 }
 
 function saveFormData() {
+    personData.wantResponse = false;
     personData.fname = document.getElementById("fname").value;
     personData.lname = document.getElementById("lname").value;
     personData.age = document.getElementById("inputAge").value;
