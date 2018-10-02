@@ -22,6 +22,20 @@
             padding: 15px;
             transform: translate(-50%, -80%);
         }
+
+        .sampleButton input[type=button]{
+        border:none;
+        font-family: "Tahoma", Geneva, serif;
+        border-radius: 4px;
+        font-size: 1.5em;
+        margin: 3px;
+        padding:10px;
+        cursor: pointer;
+
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        }
+
     </style>
 
 </head>
@@ -63,6 +77,14 @@
         <div>
             <h1 class="mt-5">Results:</h1>
             <p id="results" class="lead"></p>
+
+            <table>
+    
+
+                <td class="sampleButton" align="right">
+                    <input type="button" value="SUBMIT" onclick="location.href='/'">
+                </td>
+            </table>
         </div>
     </div>
 
