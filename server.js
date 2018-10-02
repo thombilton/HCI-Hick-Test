@@ -48,7 +48,7 @@ app.get('/ins', function (req, res) {
 });
 
 app.get('/results', function (req, res) {
-    res.send({results:'returning these results from the server'})
+    res.render('results')
 });
 
 app.listen(port, function () {
