@@ -35,7 +35,7 @@ function saveFormData() {
     personData.sleep = document.getElementById("inputBedTime").value;
     personData.awake = document.getElementById("inputAwakeTime").value;
     personData.emailAddress = document.getElementById("inputEmail").value;
-    personData.wantResponse = document.getElementById("emailResults").value;
+    personData.wantResponse = document.getElementById("emailResults").checked;
     personData.expLevel = document.getElementById("expLevel").value;
     personData.hoursSleep = calculateSleepDuration(
         personData.sleep,
